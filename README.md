@@ -43,7 +43,7 @@ You can freely expand the number of test cases, change prompts, or modify parsin
 
 Ez a projekt lehetővé teszi **Word Ladder** (szólétra) feladatok megoldását az **OpenAI ChatGPT API** és **PowerShell** segítségével. Támogatja a manuális lekérdezéseket, előre definiált teszteket elvárt eredményekkel, valamint a ChatGPT által automatikusan generált teszteseteket is. A projekt tartalmaz szkripteket egyéni átalakítások megoldására, ismert szólétrák validálására és automatikus tesztesetek generálására.
 
-## ✅ Funkciók
+## Funkciók
 
 - Tetszőleges érvényes szólétra megoldása ChatGPT-vel a `word-ladder.ps1` szkripttel
 - Előre ismert szólétra-példák ellenőrzése a `manual_test.ps1` segítségével
@@ -51,7 +51,7 @@ Ez a projekt lehetővé teszi **Word Ladder** (szólétra) feladatok megoldásá
 - Minden teszt eredmény automatikusan számozott riportfájlokba kerül mentésre
 - Tesztmód támogatása, hogy elkerülje a felesleges fájlmentést
 
-## 📦 Előfeltételek
+## Előfeltételek
 
 - PowerShell 5+ Windows esetén vagy PowerShell Core Linux/macOS alatt
 - OpenAI API kulcs (GPT-3.5 vagy GPT-4 hozzáféréshez)
@@ -69,13 +69,13 @@ Automatikus tesztesetek generálásához a GPT segítségével használd a `auto
 
 Minden szkript támogatja a "testmode" opciót, hogy elkerülje a felesleges fájlok létrehozását a tesztelések során. A riportfájlok tartalmazzák a teljes bemenetet, a GPT válaszát, valamint a sikeresség státuszát.
 
-## 📁 Kimeneti fájlok
+## Kimeneti fájlok
 
 - `run_N.txt`: manuális futtatások nyers GPT válasza
 - `run_manual_test_report_N.txt`: előre definiált tesztek eredményei összehasonlítással és kiértékeléssel
 - `run_auto_test_report_N.txt`: GPT által generált szólétra feladatok ellenőrzési eredményei
 
-## 📝 Megjegyzések
+## Megjegyzések
 
 Szabadon bővítheted a tesztesetek számát, módosíthatod a promptokat, vagy átalakíthatod a kódfeldolgozási logikát. A projekt oktatási és kiértékelési célokra lett kialakítva, különösen a ChatGPT logikai transzformációs képességeinek vizsgálatához.
 
