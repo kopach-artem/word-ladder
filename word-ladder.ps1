@@ -25,7 +25,10 @@ if ($args.Count -ge 2) {
 }
 
 # Step 2: Generate prompt
-$prompt = "Find the shortest possible transformation sequence from '$startWord' to '$endWord' by changing exactly one letter at each step. Each word must be a valid English word of the same length. Return only the optimal (shortest) word ladder as a list of words, in order. If multiple optimal paths exist, return any one. Avoid repeated or unnecessary steps."
+$prompt = "Find the shortest possible transformation sequence from '$startWord' to '$endWord' 
+by changing exactly one letter at each step. 
+Each word must be a valid English word of the same length. Return only the optimal (shortest) word ladder as a list of words, in order. 
+If multiple optimal paths exist, return any one. Avoid repeated or unnecessary steps."
 
 Write-Host "`nPrompt sent to ChatGPT:"
 Write-Host $prompt
